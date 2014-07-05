@@ -1,2 +1,5 @@
+CC=g++
+CFLAGS=-std=c++11
+
 all:
-	g++ -std=c++11 -o bin/stn src/stn.cpp
+	$(CC) $(CFLAGS) -o bin/stn src/stn.cpp
