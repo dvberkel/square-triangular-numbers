@@ -15,7 +15,8 @@ signed long long t(signed long long t0, signed long long t1) {
 }
 
 int main(){
-  for (int index = 0; index < 20; index++) {
+  int count = 20;
+  for (int index = 0; index < count; index++) {
     signed long long sn = s(s0, s1);
     s0 = s1;
     s1 = sn;
