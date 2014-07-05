@@ -12,3 +12,14 @@ can be compiled with the following command
 ```sh
 make all
 ```
+
+Running
+-------
+
+To run the program execute the following command
+
+```sh
+./bin/stn [20]
+```
+
+The argument passed signifies the number of results to print.

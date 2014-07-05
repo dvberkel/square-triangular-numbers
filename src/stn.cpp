@@ -14,8 +14,11 @@ signed long long t(signed long long t0, signed long long t1) {
   return 6 * t1 - t0 + 2;
 }
 
-int main(){
+int main(int argc, char* argv[]){
   int count = 20;
+  if(argc == 2) {
+    count = atoi(argv[1]);
+  }
   for (int index = 0; index < count; index++) {
     signed long long sn = s(s0, s1);
     s0 = s1;
