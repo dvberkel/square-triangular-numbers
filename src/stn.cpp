@@ -22,9 +22,17 @@ signed long long t(signed long long t0, signed long long t1) {
 }
 
 int main(){
-  signed long long nn = n(n0, n1);
-  signed long long sn = s(s0, s1);
-  signed long long tn = t(t0, t1);
-  std::cout << nn << "," << sn << "," << tn << std::endl;
+  for (int index = 0; index < 20; index++) {
+    signed long long nn = n(n0, n1);
+    n0 = n1;
+    n1 = nn;
+    signed long long sn = s(s0, s1);
+    s0 = s1;
+    s1 = sn;
+    signed long long tn = t(t0, t1);
+    t0 = t1;
+    t1 = tn;
+    std::cout << nn << "," << sn << "," << tn << std::endl;
+  }
   return 0;
 }
