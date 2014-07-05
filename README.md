@@ -1,4 +1,4 @@
-square-triangular-numbers
+Square Triangular Numbers
 =========================
 
-This repository outputs triangular numbers that are also squares
+This repository outputs triangular numbers that are also squares.
